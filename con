@@ -7,11 +7,11 @@ studySpec:
   - parameterId: learning_rate
     doubleValueSpec:
       minValue: 0.01
-      maxValue: 2
+      maxValue: 1
   - parameterId: momentum
     doubleValueSpec:
       minValue: 0
-      maxValue: 2
+      maxValue: 1
   - parameterId: num_neurons
     discreteValueSpec:
       values: [512]
@@ -25,4 +25,4 @@ trialJobSpec:
       bootDiskType: pd-ssd
       bootDiskSizeGb: 100
     containerSpec:
-      imageUri: gcr.io/qwiklabs-gcp-01-0fef1c5e9558/doni:nipu
+      imageUri: gcr.io/qwiklabs-gcp-04-fc88c03e8c73/moso:cok
