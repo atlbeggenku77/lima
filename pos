@@ -19,10 +19,10 @@ studySpec:
 trialJobSpec:
   workerPoolSpecs:
   - machineSpec:
-      machineType: e2-standard-8
+      machineType: e2-standard-32
     replicaCount: 1
     diskSpec:
       bootDiskType: pd-ssd
       bootDiskSizeGb: 100
     containerSpec:
-      imageUri: gcr.io/qwiklabs-gcp-02-60d1c4d7739f/moso:cok
+      imageUri: gcr.io/qwiklabs-gcp-00-3823804a2596/moso:cok
